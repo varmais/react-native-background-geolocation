@@ -122,7 +122,7 @@ public class DistanceFilterLocationProvider extends AbstractLocationProvider imp
     public void startRecording() {
         log.info("Start recording");
         scaledDistanceFilter = config.getDistanceFilter();
-        setPace(false);
+        setPace(true);
     }
 
     public void stopRecording() {
